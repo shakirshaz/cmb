@@ -1,0 +1,73 @@
+<div class="slider">
+    <!-- slides -->
+    <div class="slider__slides">
+        <div class="slide s--active">
+            <div class="slide__inner">
+                <div class="slide__content">
+                    <h2 class="slide__heading">First Image Description</h2>
+                    <h6 class="slide__text">Sub Description</h6>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide__inner">
+                <div class="slide__content">
+                    <h2 class="slide__heading">Second Image Description</h2>
+                    <h6 class="slide__text">Sub Description</h6>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide__inner">
+                <div class="slide__content">
+                    <h2 class="slide__heading">Third Image Description</h2>
+                    <h6 class="slide__text">Sub Description</h6>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <div class="slide__inner">
+                <div class="slide__content">
+                    <div class="slide__heading">
+                        <h2 class="slide__heading">Fourth Image Description</h2>
+                        <h6 class="slide__text">Sub Description</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide s--prev">
+            <div class="slide__inner">
+                <div class="slide__content">
+                    <h2 class="slide__heading">Fifth Image Description</h2>
+                    <h6 class="slide__text">Sub Description</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slides end -->
+    <div class="slider__control">
+        <div class="slider__control-line"></div>
+        <div class="slider__control-line"></div>
+    </div>
+    <div class="slider__control slider__control--right m--right">
+        <div class="slider__control-line"></div>
+        <div class="slider__control-line"></div>
+    </div>
+
+    <div  style="position: absolute;z-index: 1000;left: 50%;top: 80%">
+        <div style="position: absolute;left: 26%;top: 23%">
+            <i id="goDown" class="fa fa-chevron-down" aria-hidden="true" style="font-size: 30px;color: white;cursor: pointer"></i>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#goDown").click(function () {
+            $('html, body').animate({
+                scrollTop: 650
+            }, 2500);
+        });
+    });
+
+</script>

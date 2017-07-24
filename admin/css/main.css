@@ -1,0 +1,25 @@
+body {
+  overflow-x: hidden;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+::-webkit-scrollbar
+{
+  width: 12px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(90, 90,90 , 0.5);
+}
+
+
