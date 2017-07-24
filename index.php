@@ -65,6 +65,7 @@ include('resources/index/getintouch.php');
 
 
 <body>
+<p>Testing GIT</p>
 <!-- =========================
    PRE LOADER
 ============================== -->
