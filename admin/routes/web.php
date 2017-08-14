@@ -68,3 +68,7 @@ Route::get('viewMessage/{id}','Messages\MessagesController@viewMessage')->name('
 Route::get('deleteMessage/{id}','Messages\MessagesController@deleteMessage')->name('deleteMessage');
 
 
+//highlights
+Route::get('/highlights','Highlights\HighlightsController@index');
+
+

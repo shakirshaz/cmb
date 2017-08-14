@@ -78,4 +78,22 @@
         </div>
         <div class="col-lg-2 col-sm-2"></div>
     </div>
+    <div class="row">
+        <div class="col-lg-4 col-sm-2"></div>
+        <div class="col-lg-4 col-sm-12">
+            <a href="{{ url('highlights') }}">
+                <div class="panel">
+                    <div class="panel-body linkBlock">
+                        <center>
+                            <strong class="text-info">Highlights</strong>
+                            <div>
+                                <img src="{{ asset('images/highlights/highlights.jpg') }}" width="100"/>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-lg-4 col-sm-2"></div>
+    </div>
 @endsection

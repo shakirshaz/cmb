@@ -84,7 +84,7 @@ $tel = $row_contact['telephone'];
             </div>
             <?php
 
-            echo $address;
+            echo '<address>'.$address.'</address>';
 
             ?>
         </div>
@@ -96,7 +96,8 @@ $tel = $row_contact['telephone'];
             </div>
             <?php
 
-            echo $email;
+            echo '<a href="mailto:'.$email.'">'.$email.'</a>';
+
 
             ?>
         </div>
@@ -107,7 +108,7 @@ $tel = $row_contact['telephone'];
                 <i class="fa fa-phone"></i>
             </div>
             <?php
-            echo $tel;
+            echo '<a href="tel:"'.$tel.'>'.$tel.'</a>';
             ?>
         </div>
 
